@@ -16,7 +16,6 @@ public class Runner {
         server.createContext("/test", new MyHandler());
         server.setExecutor(null); // creates a default executor
         server.start();
-
     }
 
     static class MyHandler implements HttpHandler {
